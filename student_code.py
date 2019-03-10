@@ -62,7 +62,7 @@ def buildFeatureStatement(tree):
 
 ##### Your code to resolveObjectFOPC here -- this takes the root, the primary (suibject) and your names
 
-    preps = core.findAndAttachPrepObjectsFOPC(root, sub, object_names)
+    core.findAndAttachPrepObjectsFOPC(root, sub, object_names)
 
     # Next we pull out any features associated with the object and attach them to the object. We can use
     # core.findAndAssertFeaturesFOPC to do this.  Like core.findAndAttachPrepObjectsFOPC, it takes the ROOT and
